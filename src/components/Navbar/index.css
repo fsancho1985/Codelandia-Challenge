@@ -1,0 +1,38 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  height: 220px;
+  background: linear-gradient(90deg, #574ae8 0%, #3ea1db 100%);
+}
+
+.container-title {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px;
+}
+
+.container-search-bar {
+  margin: 15px;
+}
+
+.container-search-bar form {
+  height: 45px;
+}
+
+.container-search-bar span {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: absolute;
+}
+
+input{
+  /* width: 100%; */
+  height: 45px;
+  padding: 0 45px;
+  background: linear-gradient(0.35turn, #b3b3ff, #99bbff);
+  opacity: .5;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+}
