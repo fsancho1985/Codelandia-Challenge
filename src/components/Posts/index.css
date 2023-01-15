@@ -1,0 +1,32 @@
+.container-post {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.container-wrapper {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.wrapper-post {
+  margin: 15px 35px;
+  width: 100%;
+  text-align: center;
+  padding: 15px;
+  justify-content: space-between;
+  box-shadow: 3px 3px 3px 2px #555555;
+}
+
+.wrapper-post h1 {
+  margin-bottom: 25px;
+  color: #000;
+}
+
+.wrapper-post p {
+  color: #5b5b5b;
+  font-weight: 400;
+}
