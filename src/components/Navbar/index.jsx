@@ -10,12 +10,10 @@ const Navbar = () => {
         <h2>blog</h2>
       </div>
       <div className="container-search-bar">
-        <form className="form-container">
           <span>
             <MagnifyingGlassIcon width={30} />
           </span>
-          <input type="text" placeholder="Type your search" />
-        </form>
+          <input className='input' type="text" placeholder="Type your search" />
       </div>
     </div>
   )
